@@ -8,6 +8,7 @@
     <body>
         <h1>Cálculo de Cuadrados</h1>
         <form action="resultado.jsp">
+            <p>Ingrese a continuación el número que desea elevar al cuadrado:</p>
             <input name="numero" type="number" /><input value="Calcular" type="submit" />
         </form>
     </body>
