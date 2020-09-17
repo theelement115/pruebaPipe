@@ -33,10 +33,4 @@ public class TestCalculadora {
         Calculadora calc = new Calculadora();
         assertEquals(16.0, calc.cuadrado(-4.0), 0);
     }
-
-    @Test(expected = ArithmeticException.class)
-    public void testDesbordamiento() {
-        Calculadora calc = new Calculadora();
-        Double cuadrado = calc.cuadrado(Double.POSITIVE_INFINITY);
-    }
 }
