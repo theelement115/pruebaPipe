@@ -35,12 +35,13 @@ phases:
       # - command
   build:
     commands:
+      - mvn compile
       - mvn test
       # - command
   post_build:
     commands:
-      - java -version
       - mvn package
+      - mv target/protoapp-1.0-SNAPSHOT.war ROOT.war
       # - command
 #reports:
   #report-name-or-arn:
@@ -52,8 +53,7 @@ phases:
     #file-format: JunitXml | CucumberJson
 artifacts:
   files:
-    - target/protoapp-1.0-SNAPSHOT.war
-    - appspec.yml
+    - ROOT.war
     # - location
   #name: $(date +%Y-%m-%d)
   #discard-paths: yes
