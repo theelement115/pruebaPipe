@@ -13,7 +13,7 @@ public class TestCalculadora {
     @Test
     public void testCuadrado() {
         Calculadora calc = new Calculadora();
-        assertEquals(36.0, calc.cuadrado(6.0), 0);
+        assertEquals(25.0, calc.cuadrado(6.0), 0);
     }
     
 }
