@@ -14,5 +14,6 @@
     <body>
         <h1>Resultado</h1>
         <p>El cuadrado de <%= numero %> es <%= cuadrado %></p>
+        <p>Puede volver atrás y hacer un nuevo cálculo.</p>
     </body>
 </html>
