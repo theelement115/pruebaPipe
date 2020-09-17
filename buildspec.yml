@@ -38,7 +38,7 @@ phases:
       - mvn test
       - mvn install
       # - command
-  post_build:
+  #post_build:
     #commands:
       # - command
       # - command
