@@ -36,11 +36,11 @@ phases:
   build:
     commands:
       - mvn test
-      - mvn install
       # - command
-  #post_build:
-    #commands:
-      # - command
+  post_build:
+    commands:
+      - java -version
+      - mvn package
       # - command
 #reports:
   #report-name-or-arn:
@@ -53,6 +53,7 @@ phases:
 artifacts:
   files:
     - target/protoapp-1.0-SNAPSHOT.war
+    - appspec.yml
     # - location
   #name: $(date +%Y-%m-%d)
   #discard-paths: yes
