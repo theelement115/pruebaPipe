@@ -17,7 +17,7 @@
             <h1>Resultado</h1>
             <p>El cuadrado de <%= numero%> es <%= cuadrado%></p>
             <p>Puede volver <a href="index.jsp">atrás</a> y hacer un nuevo cálculo.</p>
-            <p>All Rights Reserved - Universidad EAFIT</p>
+            <p>All Rights Reserved 2021 - Universidad EAFIT</p>
         </div>
     </body>
 </html>
