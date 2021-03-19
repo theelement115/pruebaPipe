@@ -10,7 +10,7 @@
         <div>
             <h1>Cálculo de Cuadrados</h1>
             <form action="resultado.jsp">
-                <p><strong>Buenas noches.</strong></p>
+                <p>Buenas noches.</p>
                 <p>Ingrese a continuación el número que desea elevar al cuadrado y haga clic en Calcular:</p>
                 <input name="numero" type="number" /><input value="Calcular" type="submit" />
                 <p>All Rights Reserved 2021 - Universidad EAFIT</p>
