@@ -13,8 +13,7 @@ public class Calculadora {
     // multiplica el numero
     public Double cuadrado(Double numero) {
         HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-              .uri(URI.create("https://w8rs3evrl4.execute-api.us-east-1.amazonaws.com/Prod/hello/"))
+        HttpRequest request = HttpRequest.newBuilder(URI.create("https://w8rs3evrl4.execute-api.us-east-1.amazonaws.com/Prod/hello/"))
               .GET()
               .build();
         try {
