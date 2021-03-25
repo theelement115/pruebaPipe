@@ -7,6 +7,8 @@ import jdk.incubator.http.HttpResponse.BodyHandler;
 
 public class Calculadora {
 
+    
+    // multiplica el numero
     public Double cuadrado(Double numero) {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
